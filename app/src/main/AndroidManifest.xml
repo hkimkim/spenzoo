@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.neu.madcourse.spenzoo_finalproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/spenzoo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/spenzoo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SpenZoo_FinalProject">
+        <activity
+            android:name=".RewardsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ItemsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ZooActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PiecePlacingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExpenseActivity"
+            android:exported="true"
+            android:label="Expense"
+            android:theme="@style/Theme.SpenZoo_FinalProject.NoActionBar" />
+        <activity
+            android:name=".AnimalStatusActivity"
+            android:exported="true"
+            android:label="Animal Status" />
+        <activity
+            android:name=".AnimalSettingActivity"
+            android:exported="true"
+            android:label="Animal Setting" />
+        <activity
+            android:name=".AdoptAnimalActivity"
+            android:exported="true"
+            android:label="Adopt Animal" />
+        <activity
+            android:name=".MissionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="true"
+            android:label="User Profile" />
+        <activity
+            android:name=".StoreActivity"
+            android:exported="true"
+            android:label="Store" />
+        <activity
+            android:name=".BudgetActivity"
+            android:exported="true"
+            android:label="Budget" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true"
+            android:label="Register" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:label="SPENZOO">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "129970724301",
+    "firebase_url": "https://spenzoo-finalproject-default-rtdb.firebaseio.com",
+    "project_id": "spenzoo-finalproject",
+    "storage_bucket": "spenzoo-finalproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129970724301:android:6c516b7b22d00190b07884",
+        "android_client_info": {
+          "package_name": "edu.neu.madcourse.spenzoo_finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129970724301-ob1fan6mqj117gfh9g08q79dunhtm272.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHauAa77y6zulLGv6kCrWNegMjiki71j4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129970724301-ob1fan6mqj117gfh9g08q79dunhtm272.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

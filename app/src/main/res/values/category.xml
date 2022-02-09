@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>Food</item>
+        <item>Housing</item>
+        <item>Transport</item>
+        <item>Entertainment</item>
+        <item>Travel</item>
+        <item>Hobby</item>
+        <item>Apparel</item>
+        <item>Saving</item>
+        <item>Insurance</item>
+        <item>Miscellaneous</item>
+
+    </string-array>
+</resources>

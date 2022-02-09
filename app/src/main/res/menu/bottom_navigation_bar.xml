@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/mi_home"
+        android:title="Home"
+        android:icon="@drawable/ic_overview" />
+
+    <item android:id="@+id/mi_store"
+        android:title="Store"
+        android:icon="@drawable/ic_store" />
+
+    <item android:id="@+id/empty"
+        android:title=""/>
+
+    <item android:id="@+id/mi_expense"
+        android:title="Expense"
+        android:icon="@drawable/ic_expense"/>
+
+    <item android:id="@+id/mi_budget"
+        android:title="Budget"
+        android:icon="@drawable/ic_budget" />
+</menu>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PiecePlacingActivity">
+
+    <TextView
+        android:id="@+id/place_selection_title"
+        android:layout_width="317dp"
+        android:layout_height="35dp"
+        android:text="Select a position to place your animal "
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="318dp"
+        android:layout_height="27dp"
+        android:text="Simply drag and drop into position!"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place_selection_title"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/zooFrame"
+        android:layout_width="match_parent"
+        android:layout_height="246dp"
+        android:background="#85B084"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.053">
+
+        <ImageView
+            android:id="@+id/animal_sticker"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/elephant"
+            tools:layout_editor_absoluteX="242dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/position_confirm_btn"
+        android:layout_width="352dp"
+        android:layout_height="60dp"
+        android:text="confirm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zooFrame"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <Button
+        android:id="@+id/position_delete_item"
+        android:layout_width="155dp"
+        android:layout_height="60dp"
+        android:text="delete"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zooFrame"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <Button
+        android:id="@+id/position_confirm_item_btn"
+        android:layout_width="155dp"
+        android:layout_height="60dp"
+        android:text="confirm"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toEndOf="@+id/position_delete_item"
+        app:layout_constraintTop_toBottomOf="@+id/zooFrame"
+        app:layout_constraintVertical_bias="0.074" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

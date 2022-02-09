@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="105dp"
+    android:layout_marginBottom="6dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/recent_transaction_background"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6">
+
+        <ImageView
+            android:id="@+id/animal_image"
+            android:layout_width="92dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.122"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/elephant" />
+
+        <TextView
+            android:id="@+id/name_animal"
+            android:layout_width="127dp"
+            android:layout_height="26dp"
+            android:text="Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.145"
+            app:layout_constraintStart_toEndOf="@+id/animal_image"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.067" />
+
+        <TextView
+            android:id="@+id/dateOfAdoption_animal"
+            android:layout_width="137dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="12dp"
+            android:text="TextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.157"
+            app:layout_constraintStart_toEndOf="@+id/animal_image"
+            app:layout_constraintTop_toBottomOf="@+id/animal_category"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/animal_category"
+            android:layout_width="126dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="4dp"
+            android:text="hp 70"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.152"
+            app:layout_constraintStart_toEndOf="@+id/animal_image"
+            app:layout_constraintTop_toBottomOf="@+id/name_animal" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ok_btn"
+    android:background="#eeeeee"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="165dp"
+        android:layout_height="43dp"
+        android:text="Rewards 💰"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/reward_record_expense"
+        android:layout_width="339dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/recent_transaction_background"
+        android:clickable="true"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:text="Record Expense"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.144"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.161" />
+
+        <TextView
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:text="Earn 5 reward points for recording your expense! 💰"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.64"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.635" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/reward_ok_btn"
+        android:layout_width="323dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="24dp"
+        android:text="OK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reward_animal_adopt"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/reward_plan_budget"
+        android:layout_width="337dp"
+        android:layout_height="120dp"
+        android:background="@drawable/recent_transaction_background"
+        android:clickable="true"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reward_record_expense"
+        app:layout_constraintVertical_bias="0.057">
+
+        <TextView
+            android:layout_width="131dp"
+            android:layout_height="26dp"
+            android:text="Plan a Budget"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.145"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.223" />
+
+        <TextView
+            android:layout_width="291dp"
+            android:layout_height="63dp"
+            android:text="Earn 10 reward points for planning a budget! 📕 "
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.64"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.823" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/reward_animal_adopt"
+        android:layout_width="331dp"
+        android:layout_height="199dp"
+        android:background="@drawable/recent_transaction_background"
+        android:clickable="true"
+        android:elevation="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reward_plan_budget"
+        app:layout_constraintVertical_bias="0.076">
+
+        <TextView
+            android:id="@+id/adopt_title"
+            android:layout_width="289dp"
+            android:layout_height="23dp"
+            android:text="Adopt a New Supporter"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.518"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.175" />
+
+        <TextView
+            android:id="@+id/adopt_text"
+            android:layout_width="289dp"
+            android:layout_height="91dp"
+            android:text="Earn 15 reward points for adopting a new supporter! Make sure to select a category that you want to work on! 💁‍♀️"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.666" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

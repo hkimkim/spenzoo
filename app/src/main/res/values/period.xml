@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="period">
+        <item>bi-Weekly</item>
+        <item>Monthly</item>
+        <item>Seasonal</item>
+        <item>Annual</item>
+    </string-array>
+</resources>
