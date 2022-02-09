@@ -2,7 +2,7 @@
 
 This was a class final project that was worked on as a team.
 
-[Youtube](!https://www.youtube.com/watch?v=8kK2egKmcdg) video that explains our app.
+[Youtube](https://www.youtube.com/watch?v=8kK2egKmcdg) video that explains our app.
 
 ## Team SpenZoo:  
 Tzu-Chi Tai  
